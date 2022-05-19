@@ -1,5 +1,5 @@
 {
-  "name": "vite-vue3-tem",
+  "name": "node-take",
   "version": "0.0.1",
   "private": false,
   "description": "A Vite2.x + Vue3 + TypeScript template starter",
@@ -18,13 +18,8 @@
     "type": "git",
     "url": "git+ssh://git@github.com:leigp555/take-node.git"
   },
-  "keywords": [
-    "Vite",
-    "Vue3",
-    "TypeScript",
-    "Starter"
-  ],
-  "author": "XPoet",
+  "keywords": ["node-take"],
+  "author": "leigp",
   "license": "MIT",
   "homepage": "https://git@github.com:leigp555/take-node",
   "lint-staged": {

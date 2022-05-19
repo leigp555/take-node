@@ -3,6 +3,7 @@ import 'nprogress/nprogress.css'
 import NProgress from 'nprogress'
 import { NavigationGuardNext, RouteLocationNormalized } from 'vue-router'
 import { createPinia } from 'pinia'
+import { Button, Form, Field, CellGroup, Image as VanImage } from 'vant'
 import App from './App.vue'
 import router from '@/router/index'
 import '@/style/global.scss'
@@ -10,6 +11,11 @@ import '@/style/reset.scss'
 import '@/style/font.css'
 
 const app = createApp(App)
+app.use(Button)
+app.use(Form)
+app.use(Field)
+app.use(CellGroup)
+app.use(VanImage)
 app.use(router).use(createPinia()).mount('#app')
 
 NProgress.configure({
